@@ -85,7 +85,7 @@ The view controller can either be presented directly or added as a child view co
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -112,8 +112,8 @@ The view controller can either be presented directly or added as a child view co
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "UberSignature/Signature", "UberSignature/Signature/**/*.{h,m}"
+  s.exclude_files = "UberSignature/Signature/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
